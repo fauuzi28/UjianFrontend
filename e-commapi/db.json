@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "dobleh",
+      "password": "rahasia1",
+      "role": "admin"
+    },
+    {
+      "password": "maungapain",
+      "username": "budi",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "username": "tara",
+      "password": "rahasia3",
+      "role": "user"
+    },
+    {
+      "username": "laksamana",
+      "password": "rahasia1",
+      "email": "laksamanachoi@gmail.com",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "avatar",
+      "password": "rahasia",
+      "email": "aang@gmail.com",
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Kopi Arabica",
+      "image": "https://s-ecom.ottenstatic.com/original/5976f0868d92d934074888.jpg",
+      "stok": 20,
+      "kategoriId": 1,
+      "harga": 190000,
+      "seen": 0,
+      "deskripsi": "Bali Honey Process 500g,kopi sebaiknya dikonsumsi setelah tanggal roasting"
+    },
+    {
+      "name": "Baratza Vario",
+      "image": "https://s-ecom.ottenstatic.com/original/5b3ae0232ac7d420247831.jpg",
+      "stok": 2,
+      "kategoriId": 3,
+      "harga": 7700000,
+      "deskripsi": "Electric grinder",
+      "id": 2
+    },
+    {
+      "name": "Lacor",
+      "image": "https://s-ecom.ottenstatic.com/original/5b98c9246862a257170359.jpg",
+      "stok": 5,
+      "kategoriId": 2,
+      "harga": 900000,
+      "deskripsi": "Filter Coffee Machine 1.2L",
+      "id": 3
+    },
+    {
+      "name": "Cafflano Bundle Kit 4",
+      "image": "https://s-ecom.ottenstatic.com/original/5a77e072b181e808604454.jpg",
+      "stok": 3,
+      "kategoriId": 2,
+      "harga": 2000000,
+      "deskripsi": "Cafflano Klassic Red dan Cafflano Kompresso",
+      "id": 4
+    },
+    {
+      "name": "Brewista Artisan",
+      "image": "https://s-ecom.ottenstatic.com/original/59eec182b75c3604665946.jpg",
+      "stok": 10,
+      "kategoriId": 4,
+      "harga": 5000000,
+      "deskripsi": "Sudah termasuk paper filter 20 pcs & Outlet filter 3 pcs",
+      "id": 5
+    }
+  ],
+  "kategoris": [
+    {
+      "id": 1,
+      "nama": "Coffee Bean"
+    },
+    {
+      "id": 2,
+      "nama": "Elektronik"
+    },
+    {
+      "id": 3,
+      "nama": "Brewers"
+    },
+    {
+      "id": 4,
+      "nama": "Others"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "onproses",
+      "userId": 2,
+      "id": 1,
+      "metode": "cc"
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 1,
+      "qty": 1,
+      "id": 1
+    }
+  ]
+}
