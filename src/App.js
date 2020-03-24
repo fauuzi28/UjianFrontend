@@ -9,7 +9,14 @@ import { API_URL } from './supports/ApiUrl';
 import { KeepLogin } from './redux/actions';
 import {connect} from 'react-redux'
 import ManageAdmin from './pages/manageadmin'
+import ProductDetail from './pages/productdetail'
+import Allproduct from './pages/allproduct'
 import NotFound from './pages/notfound';
+import Cart from './pages/Cart'
+import Register from './pages/register'
+import UserSetting from './pages/userSetting';
+import Checkout from './pages/Checkout'
+
 
 function App({KeepLogin}) {
 
@@ -35,7 +42,13 @@ function App({KeepLogin}) {
       <Switch>
       <Route path='/' exact component={Home}/>
       <Route path='/login' exact component={Login}/>
+      <Route path='/usersetting' exact component={UserSetting}/>
+      <Route path='/register' exact component={Register}/>
       <Route path='/manageadmin' exact component={ManageAdmin}/>
+      <Route path='/allproduct' exact component={Allproduct}/>
+      <Route path='/productdetail/:idprod' exact component={ProductDetail}/>
+      <Route path='/checkout' exact component={Checkout}/>
+      <Route path='/cart' exact component={Cart}/>
       <Route path='/*' component={NotFound}/>
       </Switch>
     </div>
